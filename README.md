@@ -4,9 +4,9 @@
 
 Insurance Co is looking to optimize its online insurance buying process and use of marketing resources. You are provided with an Excel dataset containing CRM data concerning term life and critical illness insurance applications. Your objective is to prepare a dashboard, analyze the data, and present insights to tackle two primary questions:
 
-● How can we enhance the rate of policy purchases?
+* How can we enhance the rate of policy purchases?
 
-● What should the acquisition cost target be for the marketing team?
+* What should the acquisition cost target be for the marketing team?
 
 <br>
 
@@ -31,9 +31,9 @@ this case in your interviews.
 
 #### Evaluation Criteria
 
-● Clarity and effectiveness of the dashboard visualizations / explanations to convey your insights to non-technical audiences (marketing, ops, finance).
+* Clarity and effectiveness of the dashboard visualizations / explanations to convey your insights to non-technical audiences (marketing, ops, finance).
 
-● Relevance of insights gained from the analysis.
+* Relevance of insights gained from the analysis.
 Note: We are primarily looking to understand how you communicate your results and how well you translate business problems into data solutions. We will have time to dive deeper on technical skills in the technical interview towards the end of the process.
 
 <br>
@@ -68,4 +68,4 @@ CREATE DATABASE policyme;
 CREATE TABLE policyme.insurance_events
   USING csv
   OPTIONS (path "file:/databricks/driver/case_policyme/analytics_engineer_take_home_assignment_v1.csv", header "true");
-``
+```
