@@ -1,11 +1,8 @@
 # Analytics Engineer - Take Home Assignment
 
-**Background**
-
 Insurance Co is looking to optimize its online insurance buying process and use of marketing resources. You are provided with an Excel dataset containing CRM data concerning term life and critical illness insurance applications. Your objective is to prepare a dashboard, analyze the data, and present insights to tackle two primary questions:
 
 * How can we enhance the rate of policy purchases?
-
 * What should the acquisition cost target be for the marketing team?
 
 <br>
@@ -18,7 +15,7 @@ Insurance Co is looking to optimize its online insurance buying process and use 
 > 4. Customer finalizes the policy purchase.
 It's important to note that customers may drop out at any stage. Application data will be incomplete if the customer drops prior to submitting a completed application (Step 2).
 
-#### Instructions
+### Instructions
 
 ● Please state any assumptions that you make about the case.
 
@@ -29,7 +26,7 @@ this case in your interviews.
 
 <br>
 
-#### Evaluation Criteria
+### Evaluation Criteria
 
 * Clarity and effectiveness of the dashboard visualizations / explanations to convey your insights to non-technical audiences (marketing, ops, finance).
 
@@ -38,7 +35,7 @@ Note: We are primarily looking to understand how you communicate your results an
 
 <br>
 
-#### Case Questions
+### Case Questions
 
 1. Create a dashboard or analysis using Excel that addresses the following:
 
@@ -50,6 +47,7 @@ Note: We are primarily looking to understand how you communicate your results an
 2. If you were given more time to work on this problem, what would you like to do? Is there any other data you would like to collect?
 Given the time limit, remember that we’re looking for you to display good communication skills and address the core business problems. Your dashboard / analysis should make it clear to the reader the answers to the questions above. You can use any combination of data, visualizations, text etc. to communicate your message!
 
+<br>
 
 ### Setup 
 
