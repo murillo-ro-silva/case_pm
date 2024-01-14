@@ -1,5 +1,3 @@
-%md
-
 # Analytics Engineer - Take Home Assignment
 
 **Background**
