@@ -51,7 +51,6 @@ Note: We are primarily looking to understand how you communicate your results an
 Given the time limit, remember that we’re looking for you to display good communication skills and address the core business problems. Your dashboard / analysis should make it clear to the reader the answers to the questions above. You can use any combination of data, visualizations, text etc. to communicate your message!
 
 
-%md
 ### Setup 
 
 In Databricks WEB IDE, the csv file used here, it was converted to .csv previously
