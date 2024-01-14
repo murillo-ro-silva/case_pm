@@ -53,15 +53,17 @@ Given the time limit, remember that we’re looking for you to display good comm
 
 ### Setup 
 
-In Databricks WEB IDE, the csv file used here, it was converted to .csv previously
+The csv file used here, it was converted to .csv previously.
 
-1.
+1. Opem the Databricks WEB IDE using this [LINK](https://community.cloud.databricks.com/?o=938604926274821#notebook/300697287821923/command/3399427677679308)
+   
+2.
 ```
 %py
 !git clone https://github.com/murillo-ro-silva/case_policyme.git
 ```
 
-2.
+3.
 ```
 DROP DATABASE policyme CASCADE;
 CREATE DATABASE policyme;
