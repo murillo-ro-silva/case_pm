@@ -55,7 +55,7 @@ Given the time limit, remember that we’re looking for you to display good comm
 
 The csv file used here (analytics_engineer_take_home_assignment_v1.csv), it was converted to .csv previously.
 
-1. Opem the Databricks WEB IDE using this [LINK](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/938604926274821/300697287821923/1676615757215603/latest.html)
+1. Opem the Databricks WEB IDE using this [LINK](https://community.cloud.databricks.com/?o=938604926274821#notebook/300697287821923/command/3399427677679308)
 
 
 2. Get the database on Github repository:
