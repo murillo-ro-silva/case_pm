@@ -53,17 +53,18 @@ Given the time limit, remember that we’re looking for you to display good comm
 
 ### Setup 
 
-The csv file used here, it was converted to .csv previously.
+The csv file used here (analytics_engineer_take_home_assignment_v1.csv), it was converted to .csv previously.
 
-1. Opem the Databricks WEB IDE using this [LINK](https://community.cloud.databricks.com/?o=938604926274821#notebook/300697287821923/command/3399427677679308)
-   
-2.
+1. Opem the Databricks WEB IDE using this [LINK](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/938604926274821/300697287821923/1676615757215603/latest.html)
+
+
+2. Get the database on Github repository:
 ```
 %py
 !git clone https://github.com/murillo-ro-silva/case_policyme.git
 ```
 
-3.
+3. Create the database and table structure:
 ```
 DROP DATABASE policyme CASCADE;
 CREATE DATABASE policyme;
