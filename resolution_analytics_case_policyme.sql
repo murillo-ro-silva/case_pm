@@ -75,10 +75,6 @@ WHERE
 
 -- COMMAND ----------
 
-select * from absolute_metrics
-
--- COMMAND ----------
-
 -- DBTITLE 1,drop-off unsuccessfully rate %
 SELECT
   100 AS 1_aplication_initiated,
@@ -222,13 +218,13 @@ ORDER BY
 -- COMMAND ----------
 
 -- MAGIC %md
--- MAGIC **The Drop-off Vision:**
+-- MAGIC **The Drop-off Vision (Cmd9):**
 -- MAGIC
 -- MAGIC * The initial stage to completion has a drop-off rate, which can be calculated as 100% - 49.14% = **50.86%**.
 -- MAGIC * The completion to approval seems to have a better conversion rate so that the drop-off would be 100% - 57.56% = **42.44%**.
 -- MAGIC * The final stage, approval to purchase, shows a drop-off of 100% - 34.4% = **65.6%**.
 -- MAGIC
--- MAGIC **The Funnel Vision:**
+-- MAGIC **The Funnel Vision (Cmd10):**
 -- MAGIC
 -- MAGIC * The dataviz let clearly a complementary vision that show what percentage of leads / customers are converted to final purchase.
 -- MAGIC
@@ -237,13 +233,13 @@ ORDER BY
 -- MAGIC `Answer:` From these calculations, the most significant **drop-off occurs from the approval to purchase stage** with a **65.6% drop-off rate**. This indicates that even though customers get approved, many do not follow through with the purchase. This stage would likely benefit from further analysis to understand the reasons behind the drop-offs and to develop strategies to improve the final conversion rate.
 -- MAGIC
 -- MAGIC `looking at the highest dropout rate. (65.6% approval to purchase)`
--- MAGIC 1. There are 2 mainly situation preventing the policy from being sold in [Cmd13].
+-- MAGIC 1. There are 2 mainly situation preventing the policy from being sold in [Cmd12].
 -- MAGIC | purchase_status   | total_policies_per_status |
 -- MAGIC | ----------------- | ------------------------- |
 -- MAGIC | Customer declined | 92  |
 -- MAGIC | Pending           | 255 |
 -- MAGIC
--- MAGIC 2. The behaviour occurs in an age group with a higher incidence in [Cmd14 and Cmd15].
+-- MAGIC 2. The behaviour occurs in an age group with a higher incidence in [Cmd13 and Cmd14].
 -- MAGIC | top | bucket_age   | total_by_age |
 -- MAGIC | --- | ------------ | ------------------------- |
 -- MAGIC | 1   | 30-39        | 168  |
@@ -252,9 +248,9 @@ ORDER BY
 -- MAGIC | 4   | 20-29        | 42 |
 -- MAGIC | 5   | 60-69        | 6 |
 -- MAGIC
--- MAGIC 3. The higher incidence for people "Females" (181 events) than "Males" (166 events) in [Cmd16].
--- MAGIC 4. There was a higher incidence of product "Term Life" (328 events) than Critical Illness (19 events) in [Cmd17].
--- MAGIC 5. The top 5 lead sources for the events in [Cmd18].
+-- MAGIC 3. The higher incidence for people "Females" (181 events) than "Males" (166 events) in [Cmd15].
+-- MAGIC 4. There was a higher incidence of product "Term Life" (328 events) than Critical Illness (19 events) in [Cmd16].
+-- MAGIC 5. The top 5 lead sources for the events in [Cmd17].
 -- MAGIC
 -- MAGIC | top | lead_source   | policies_by_source |
 -- MAGIC | --- | ------------ | ------------------------- |
