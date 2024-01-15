@@ -49,7 +49,7 @@ Given the time limit, remember that we’re looking for you to display good comm
 
 <br>
 
-### Setup 
+### Resolution Test 
 
 The csv file used here (analytics_engineer_take_home_assignment_v1.csv), it was converted to .csv previously.
 
