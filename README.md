@@ -55,18 +55,4 @@ The csv file used here (analytics_engineer_take_home_assignment_v1.csv), it was 
 
 1. Opem the Databricks WEB IDE using this [LINK](https://community.cloud.databricks.com/?o=938604926274821#notebook/300697287821923/command/3399427677679308)
 
-
-2. Get the database on Github repository:
-```
-%py
-!git clone https://github.com/murillo-ro-silva/case_policyme.git
-```
-
-3. Create the database and table structure:
-```
-DROP DATABASE policyme CASCADE;
-CREATE DATABASE policyme;
-CREATE TABLE policyme.insurance_events
-  USING csv
-  OPTIONS (path "file:/databricks/driver/case_policyme/analytics_engineer_take_home_assignment_v1.csv", header "true");
-```
+2. Follow the "Setup" explained in Cm2 on Notebook.
