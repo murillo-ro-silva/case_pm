@@ -49,10 +49,28 @@ Given the time limit, remember that we’re looking for you to display good comm
 
 <br>
 
-### Resolution Test 
+## Resolution Test 
 
 The csv file used here (analytics_engineer_take_home_assignment_v1.csv), it was converted to .csv previously.
 
-1. Opem the Databricks WEB IDE using this [LINK](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/938604926274821/300697287821923/1676615757215603/latest.html)
+1. If you prefer, you can opem the Databricks WEB IDE using this [LINK](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/938604926274821/300697287821923/1676615757215603/latest.html)
+   1.1. ps: The bad point here, are the dashboards are not visible.
 
-2. Follow the "Setup" explained in Cm2 on Notebook.
+2. Resolution Questions
+![image](https://github.com/murillo-ro-silva/case_policyme/assets/719341/856337af-4741-43bd-9430-fdcfd7204a0b)
+![image](https://github.com/murillo-ro-silva/case_policyme/assets/719341/bfe8de6d-a119-47a5-a760-898ff7eb5350)
+![image](https://github.com/murillo-ro-silva/case_policyme/assets/719341/3486c8d8-ef65-4eb5-ae73-53d8c721b520)
+![image](https://github.com/murillo-ro-silva/case_policyme/assets/719341/353e0e4c-5d3f-4286-8417-1e5fb6bdd4a9)
+![image](https://github.com/murillo-ro-silva/case_policyme/assets/719341/878ff137-f280-493e-b52c-01d56d56663b)
+![image](https://github.com/murillo-ro-silva/case_policyme/assets/719341/f316f0ce-0b76-4773-82be-0456e2aec3e8)
+![image](https://github.com/murillo-ro-silva/case_policyme/assets/719341/c4e9fe4c-c8cc-4745-9373-68126893ddd8)
+![image](https://github.com/murillo-ro-silva/case_policyme/assets/719341/6e17f62b-b166-4109-bf8f-f8b66bfcc033)
+![image](https://github.com/murillo-ro-silva/case_policyme/assets/719341/cb1bcf58-8b4a-4324-837e-6faed121003a)
+![image](https://github.com/murillo-ro-silva/case_policyme/assets/719341/801e9fda-436b-43eb-a97a-ce4b000c31ea)
+![image](https://github.com/murillo-ro-silva/case_policyme/assets/719341/95726b94-ae90-4435-b188-794b8fba0915)
+![image](https://github.com/murillo-ro-silva/case_policyme/assets/719341/d150e7d2-3251-4dcb-9c3d-e629296ed97b)
+![image](https://github.com/murillo-ro-silva/case_policyme/assets/719341/0c16125c-dfa8-41a0-a8be-30a070881c58)
+![image](https://github.com/murillo-ro-silva/case_policyme/assets/719341/f0f88313-a1da-4b1f-b504-7805aa3cdee3)
+![image](https://github.com/murillo-ro-silva/case_policyme/assets/719341/a06546e2-2a1c-42b9-9ea4-9e82944b6616)
+![image](https://github.com/murillo-ro-silva/case_policyme/assets/719341/12032d5c-03ee-4df1-8665-c7eae0a54877)
+
